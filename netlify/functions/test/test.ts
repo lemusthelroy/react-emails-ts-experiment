@@ -20,7 +20,7 @@ const handler = async (event, context) => {
       method: "POST",
       body: JSON.stringify({
         to: "lewis.john.thorley@gmail.com",
-        from: "lewisBADTEST@reflr.io",
+        from: "lewis@reflr.io",
         subject: "Test email",
         attachments: [
           { content: base64, filename: "dummy.pdf", type: "application/pdf" },
