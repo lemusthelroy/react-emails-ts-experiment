@@ -1,6 +1,5 @@
 
-[[plugins]]
-  package = "../netlify-emails-plugin"
+
 
 [functions.test]
  included_files = ["assets/dummy.pdf"]
